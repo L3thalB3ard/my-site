@@ -1,0 +1,45 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link "Byron" [ref=e3] [cursor=pointer]:
+      - /url: "#top"
+    - navigation [ref=e4]:
+      - link "About" [ref=e5] [cursor=pointer]:
+        - /url: "#about"
+      - link "Projects" [ref=e6] [cursor=pointer]:
+        - /url: "#projects"
+      - link "Contact" [ref=e7] [cursor=pointer]:
+        - /url: "#contact"
+  - main [ref=e8]:
+    - generic [ref=e9]:
+      - heading "Hi, I'm Byron." [level=1] [ref=e10]
+      - paragraph [ref=e11]: I build simple things for the web and learn by making.
+      - link "See my projects" [ref=e12] [cursor=pointer]:
+        - /url: "#projects"
+    - generic [ref=e13]:
+      - heading "About" [level=2] [ref=e14]
+      - paragraph [ref=e15]: I'm a curious builder who enjoys turning ideas into small, working websites and tools. I like clean design, honest code, and keeping things fast. When I'm not at the keyboard, I'm probably reading, walking, or sketching out the next idea.
+    - generic [ref=e16]:
+      - heading "Projects" [level=2] [ref=e17]
+      - generic [ref=e18]:
+        - article [ref=e19]:
+          - heading "Project One" [level=3] [ref=e20]
+          - paragraph [ref=e21]: A short description of the first project goes here. What it does and why it matters.
+          - link "View project →" [ref=e22] [cursor=pointer]:
+            - /url: "#"
+        - article [ref=e23]:
+          - heading "Project Two" [level=3] [ref=e24]
+          - paragraph [ref=e25]: A short description of the second project goes here. What it does and why it matters.
+          - link "View project →" [ref=e26] [cursor=pointer]:
+            - /url: "#"
+        - article [ref=e27]:
+          - heading "Project Three" [level=3] [ref=e28]
+          - paragraph [ref=e29]: A short description of the third project goes here. What it does and why it matters.
+          - link "View project →" [ref=e30] [cursor=pointer]:
+            - /url: "#"
+    - generic [ref=e31]:
+      - heading "Contact" [level=2] [ref=e32]
+      - paragraph [ref=e33]: Want to say hi or work on something together?
+      - link "Email me" [ref=e34] [cursor=pointer]:
+        - /url: mailto:hello@example.com
+  - contentinfo [ref=e35]:
+    - paragraph [ref=e36]: © 2026 Byron · Built with plain HTML & CSS
